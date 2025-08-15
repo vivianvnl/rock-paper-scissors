@@ -57,17 +57,17 @@ for (let i = 1; i <= 5; i++) {
 
 if (humanScore === computerScore) {
     console.log("You tied!!! " + humanScore + " - " + computerScore)
-    alert("Get your revenge next time!!!\n\nFinal Score: " + humanScore + " - " + computerScore);
+    alert("Get your revenge next time!\n\nFinal Score: " + humanScore + " - " + computerScore);
 }
 
 if (humanScore > computerScore) {
     console.log("You win!!! " + humanScore + " - " + computerScore)
-    alert("Congrats!!! You win!!!\n\nFinal Score: " + humanScore + " - " + computerScore);
+    alert("Congrats!! You win!!!\n\nFinal Score: " + humanScore + " - " + computerScore);
 }
 
 if (computerScore > humanScore) {
     console.log("You lose!!! " + humanScore + " - " + computerScore)
-    alert("Awwwh...You lose!!!\n\nFinal Score: " + humanScore + " - " + computerScore);
+    alert("Awwwh...You lose!!\n\nFinal Score: " + humanScore + " - " + computerScore);
 }
 
 }
